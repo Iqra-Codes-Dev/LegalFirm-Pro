@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">LawExpert</div>
+    <div class="menu-toggle" id="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav id="nav-list">
+      <ul>
+        <li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#reas">Practice Areas</a></li>
+<li><a href="#faq-orders">FAQs & Orders</a></li>
+<li><a href="#att">Attorneys</a></li>
+<li><a href="#cont">Contact</a></li>
+
+        <li><a href="#" class="cta-btn">Book Consultation</a></li>
+      </ul>
+    </nav>
+  </header>
+  <script>
+    // Elements ko select karein
+    const menuBtn = document.getElementById('mobile-menu');
+    const navList = document.getElementById('nav-list');
+
+    // Click event
+    menuBtn.addEventListener('click', () => {
+        // Toggle Active Class on Nav
+        navList.classList.toggle('active');
+        
+        // Toggle Animation on Button
+        menuBtn.classList.toggle('is-active');
+    });
+</script>
+  <!------------------  Section 1----------------------- -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Trusted <span>Legal Experts</span> For You</h1>
+      <p>Providing top-notch legal solutions for individuals & businesses with professionalism and integrity.</p>
+      <a href="#" class="hero-btn"><i class="fas fa-calendar-check"></i> Schedule Consultation</a>
+      <a href="#" class="hero-btn"><i class="fas fa-info-circle"></i> Learn More</a>
+    </div>
+  </section>
+  <!----------------- section 2------------------------------- -->
+  <section class="about-us-modern" id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <br><br>
+      <p>
+        LawExpert is a professional law firm committed to providing top-notch legal services for individuals and
+        businesses.
+        Our experienced attorneys specialize in multiple areas of law to ensure the best outcome for our
+        clients. LawExpert is a professional law firm committed to providing top-notch legal services for individuals and
+        businesses.
+        Our experienced attorneys specialize in multiple areas of law to ensure the best outcome for our
+        clients.
+      </p>
+      </section>
+      <!-- --------------------- -->
+      <section class="about-us-modern" id="reas">
+
+      <h3>Our Practice Areas</h3>
+      <div class="practice-areas-modern">
+
+        <div class="card-modern">
+          <div class="icon-circle"><i class="fas fa-gavel"></i></div>
+          <h4>Criminal Law</h4>
+          <p>Providing expert representation in criminal cases with dedication and professionalism.</p>
+        </div>
+
+        <div class="card-modern">
+          <div class="icon-circle"><i class="fas fa-handshake"></i></div>
+          <h4>Corporate Law</h4>
+          <p>Legal guidance for businesses, contracts, and corporate compliance matters.</p>
+        </div>
+
+        <div class="card-modern">
+          <div class="icon-circle"><i class="fas fa-users"></i></div>
+          <h4>Family Law</h4>
+          <p>Expert legal support in divorce, custody, and family-related cases.</p>
+        </div>
+
+        <!-- <div class="card-modern">
+          <div class="icon-circle"><i class="fas fa-balance-scale"></i></div>
+          <h4>Civil Litigation</h4>
+          <p>Handling civil disputes and providing professional legal solutions.</p>
+        </div> -->
+
+        <div class="card-modern">
+  <div class="icon-circle"><i class="fas fa-phone-alt"></i></div>
+  <h4>Client Consultation</h4>
+  <p>Schedule a confidential consultation with our legal experts for professional advice and case evaluation.</p>
+</div>
+
+<div class="card-modern">
+  <div class="icon-circle"><i class="fas fa-envelope"></i></div>
+  <h4>Legal Inquiries</h4>
+  <p>Submit your legal questions via email and receive a detailed response from our experienced attorneys.</p>
+</div>
+
+<!-- <div class="card-modern">
+  <div class="icon-circle"><i class="fas fa-map-marker-alt"></i></div>
+  <h4>Office Location</h4>
+  <p>Visit our office for personalized legal representation and dedicated client support.</p>
+</div> -->
+
+<div class="card-modern">
+  <div class="icon-circle"><i class="fas fa-headset"></i></div>
+  <h4>24/7 Assistance</h4>
+  <p>Our support team is available to guide you through urgent legal matters with professionalism and care.</p>
+</div>
+
+
+      </div>
+    </div>
+  </section>
+  <!-- --------------section 3--------------------------- -->
+  <section class="faq-orders-section" id="faq-orders">
+    <div class="container">
+      <div class="faq-orders-grid">
+
+        <div class="faq-card">
+          <h1>Frequently Asked Questions</h1>
+         <div>
+            <!-- <li><i class="fa-solid fa-right-long"></i>
+              Can private person access the Law and PA department's library?</li> -->
+              <details ><i class="fa-solid fa-right-long"></i>
+                <summary>Can private person access the Law and PA department's library?</summary>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa asperiores illum accusantium saepe rerum qui quis quidem consectetur voluptate aliquam veritatis recusandae excepturi accusamus perspiciatis a, perferendis aut ab quos.</p>
+              </details>
+               <details ><i class="fa-solid fa-right-long"></i>
+                <summary> Does Law department provide professional trainings to their Officers?</summary>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa asperiores illum accusantium saepe rerum qui quis quidem consectetur voluptate aliquam veritatis recusandae excepturi accusamus perspiciatis a, perferendis aut ab quos.</p>
+              </details> 
+              <details ><i class="fa-solid fa-right-long"></i>
+                <summary>Can Law department initiate legislative proposals?</summary>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa asperiores illum accusantium saepe rerum qui quis quidem consectetur voluptate aliquam veritatis recusandae excepturi accusamus perspiciatis a, perferendis aut ab quos.</p>
+              </details>
+         </div>
+          <button class="faq-btn">Read More</button>
+        </div>
+
+
+        <div class="orders-card">
+          <h1>Orders</h1>
+          <ul>
+            <li><i class="fa-solid fa-notes-medical"></i>
+              No. SO(ADMN-II)11-1/2017/6458-Nov, 2021</li>
+            <li><i class="fa-solid fa-notes-medical"></i>
+              No.S.O(Admn-I)5-8/2020/5879- Nov, 2020</li>
+            <li><i class="fa-solid fa-notes-medical"></i>
+              No. SO(ADMN-II)11-1/2017/6458-Nov, 2021</li>
+            <li><i class="fa-solid fa-notes-medical"></i>
+              No.S.O(Admn-I)5-8/2020/5879- Nov, 2020</li>
+          </ul>
+          <button class="orders-btn">View All Orders</button>
+        </div>
+      </div>
+    </div>
+  
+   </section>
+
+ 
+
+  <!---------------- section 4-------------------------- -->
+  <section class="team-grid-split" id="att">
+    <div class="container">
+      <h2>Meet Our Attorneys</h2>
+      <p>
+        Our experienced attorneys are dedicated to providing exceptional legal services and achieving the best
+        outcomes for our clients.
+      </p>
+
+      <div class="team-grid">
+        <div class="team-member">
+          <div class="member-photo">
+            <img
+              src="https://thumbs.dreamstime.com/b/beautiful-asian-woman-lawyer-working-gavel-tablet-laptop-front-advice-justice-law-concept-office-409580786.jpg">
+          </div>
+          <div class="member-info">
+            <h4>Ayesha Khan</h4>
+            <p>Senior Partner -Criminal Law Specialist with over 15 years of experience handling
+              high-profile criminal cases. Jane is known for her strategic approach, meticulous case
+              preparation, and client-first mindset.</p>
+          </div>
+        </div>
+
+
+        <div class="team-member reverse">
+          <div class="member-photo">
+            <img src="https://img.freepik.com/premium-photo/portrait-beautiful-female-lawyer-sitting-desk-smiling-camera_44344-4770.jpg?w=360">
+          </div>
+          <div class="member-info">
+            <h4>Zoya Ahmed</h4>
+            <p>Corporate Law Expert -Advising businesses on contracts, mergers, and compliance. John has
+              helped startups and multinational corporations navigate complex legal frameworks with
+              pragmatic solutions.</p>
+          </div>
+        </div>
+
+
+        <div class="team-member">
+          <div class="member-photo">
+            <img
+              src="https://img.freepik.com/premium-photo/beautiful-asian-woman-lawyer-working-gavel-front_55099-61.jpg">
+          </div>
+          <div class="member-info">
+            <h4>Mahnoor Siddiqui</h4>
+            <p>Family Law Specialist- Supporting clients in divorce, child custody, and adoption cases.
+              Emily ensures settlements prioritize family well-being while protecting clients' rights.</p>
+          </div>
+        </div>
+
+
+        <div class="team-member reverse">
+          <div class="member-photo">
+            <img
+              src="https://media.istockphoto.com/id/1937101558/photo/a-female-lawyer-at-her-workplace-communicates-with-a-young-client-discussing-issues-of-legal.jpg?s=612x612&w=0&k=20&c=G77aWPfMHwmYFmoM2l26-_JIjn9V7Wcc5rw5BJpSjGM=">
+          </div>
+          <div class="member-info">
+            <h4>Sana Malik</h4>
+            <p>Civil Litigation Attorney Expert in dispute resolution and civil court cases. Michael's
+              analytical skills and attention to detail consistently result in favorable outcomes.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!---------------- section 5------------------------ -->
+  <div class="cta">
+    <h3> Adipisicing <br> elit. Obcaecat.</h3>
+    <p> Sapiente nobis eveniet <br> similique sed maxime inventore deleniti enim quam repellat possimus?</p>
+    <a href="" class="cta-btn"> Know more</a>
+  </div>
+  </div>
+    <div class="progress-container">
+  <progress value="80" max="100" ></progress>
+  <progress value="60" max="100"></progress>
+  <progress value="40" max="100"></progress>
+  <progress value="30" max="100"></progress>
+</div>
+
+  <!-- --------------section 6--------------------------- -->
+  <section class="blog-section-left-img">
+    <div class="container">
+      <h2>Legal Insights</h2>
+      <p>Latest articles, news, and tips from our legal experts.</p>
+
+      <div class="blog-content">
+        <ul class="blog-list">
+          <li>
+            <h4>5 Key Tips for Corporate Law Compliance</h4>
+            <p>Learn essential steps to keep your business compliant with corporate law regulations.</p>
+            <a href="#">Read More →</a>
+          </li>
+          <li>
+            <h4>Understanding Child Custody Laws in Pakistan</h4>
+            <p>Insights into child custody regulations and navigating complex family law cases.</p>
+            <a href="#">Read More →</a>
+          </li>
+          <li>
+            <h4>Resolving Property Disputes Efficiently</h4>
+            <p>Expert advice on handling property disputes with minimal stress and maximum legal protection.</p>
+            <a href="#">Read More →</a>
+          </li>
+        </ul>
+        <div class="blog-image">
+          <img src="https://www.supremecourt.gov.pk/wp-content/uploads/2019/09/IMG_2548.jpg">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---------------- section 7-------------------------- -->
+
+  <section class="contact-section" id="cont">
+    <div class="contact-grid">
+
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p><strong>Phone:</strong> +92 300 1234567</p>
+        <p><strong>Email:</strong> info@example.com</p>
+        <div class="socia-links">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-whatsapp"></i>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217897.62046051834!2d72.92448501493419!3d31.42375904241891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392242a895a55ca9%3A0xdec58f88932671c6!2sFaisalabad%2C%20Pakistan!5e0!3m2!1sen!2s!4v1756030463287!5m2!1sen!2s"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---------------- section 8---------------------- -->
+  <section class="you-may-like">
+    <h2>You May Also Like</h2>
+    <div class="cards-container">
+
+      <div class="card">
+        <div class="date">May 28, 2025</div>
+        <h3>Media Trials: How Social Media & Leaked Evidence Are Destroying Justice</h3>
+        <p>Imagine a courtroom drama playing out, not just within the four walls of a courthouse, but across every news
+          channel,…</p>
+      </div>
+
+
+      <div class="card">
+        <div class="date">May 28, 2025</div>
+        <h3>The Intersection of NFTS and Copyright: Clarifying Ownership of Digital Art</h3>
+        <p>The emergence of non-fungible tokens (NFTS) provides a unique perspective in the digital art world, creating
+          new monetisation verticals for…</p>
+      </div>
+
+
+      <div class="card">
+        <div class="date">May 7, 2025</div>
+        <h3>Music Sampling, Remix Culture, and the Future of Copyright Law</h3>
+        <p>In an era where creativity thrives through digital remixing, music sampling and remix culture are pushing
+          copyright law into uncharted…</p>
+      </div>
+
+
+      <div class="card">
+        <div class="date">May 6, 2025</div>
+        <h3>Why You Should Consult a Lawyer for Worker,s Compensation Claims</h3>
+        <p>Workplace injuries can be both physically and emotionally overwhelming. When you suffer an injury on the job,
+          your primary concern…</p>
+      </div>
+    </div>
+    
+  </section>
+   <marquee behavior="" direction=""  class="
+  footer-strip">50% <span>© 2025 Staybnb — All rights reserved.</span></marquee>
+  
+  
+  <!------------------- footer ------------------------ -->
+  
+ <footer>
+  <div class="footer-container">
+
+    <!-- Column 1 -->
+    <div class="footer-col">
+      <h3>LawExpert</h3>
+      <p style="color: rgb(202, 203, 203);">
+        Providing trusted legal services for individuals and businesses with professionalism, integrity, and dedication.
+      </p>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#reas">Practice Areas</a></li>
+        <li><a href="#att">Attorneys</a></li>
+        <li><a href="#cont">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3 -->
+    <div class="footer-col">
+      <h3>Practice Areas</h3>
+      <ul>
+        <li><a href="#">Criminal Law</a></li>
+        <li><a href="#">Corporate Law</a></li>
+        <li><a href="#">Family Law</a></li>
+        <li><a href="#">Legal Consultation</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 4 -->
+    <div class="footer-col">
+      <h3>Contact Info</h3>
+      <ul>
+           <li><a href="#"> +92 300 1234567</a></li>
+        <li><a href="#"> info@example.com</a></li>
+        <li><a href="#">Faisalabad, Pakistan</a></li>
+        
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Bottom -->
+  <div class="footer-bottom">
+    © 2025 LawExpert — All rights reserved.
+  </div>
+</footer>
+
+
+
+</body>
+
+</html>
